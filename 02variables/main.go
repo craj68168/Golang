@@ -4,21 +4,21 @@ import "fmt"
 
 const LoginToken string = "mytoken" // capital L means we make it public and it constant and use it inside method as it is globally declare
 func main() {
-	var username string = "Raj"
+	var username = "Raj"
 	fmt.Println(username)
-	fmt.Printf("Variable username is type: %T \n", username)
+	fmt.Printf("Variable username is type: %T \n", username) // string
 
 	var isBool bool = false
 	fmt.Println(isBool)
-	fmt.Printf("Variable isBool is type: %T \n", isBool)
+	fmt.Printf("Variable isBool is type: %T \n", isBool) // bool
 
-	var smallVal uint8 = 255
+	var smallVal uint8 = 255 // limit upto 0-255 max
 	fmt.Println(smallVal)
-	fmt.Printf("Variable smallVal is type: %T \n", smallVal)
+	fmt.Printf("Variable smallVal is type: %T \n", smallVal) //uint8
 
 	var smallFloat float32 = 255.554433
 	fmt.Println(smallFloat)
-	fmt.Printf("Variable smallFloat is type: %T \n", smallFloat) //it gives 255.55443 only
+	fmt.Printf("Variable smallFloat is type: %T \n", smallFloat) //255.55443 only 5 value after decimal
 
 	var smallFloat2 float64 = 255.554433221100
 	fmt.Println(smallFloat2)
