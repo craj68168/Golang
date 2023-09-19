@@ -4,4 +4,5 @@ use (
 	"./01 hello"
 	./02variables
 	./03userinput
+	./04conversion
 )
