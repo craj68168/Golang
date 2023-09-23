@@ -2,6 +2,7 @@ go 1.21.0
 
 use (
 	"./01 hello"
+	./010slices
 	./02variables
 	./03userinput
 	./04conversion
@@ -9,4 +10,5 @@ use (
 	./07pointers
 	./08myArray
 	./09slices
+	./11myMaps
 )
