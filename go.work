@@ -21,4 +21,7 @@ use (
 	./19files
 	./20handlingRequest
 	./21handlingURL
+	./22webrequest
+	./23postrequest
+	./24postformrequest
 )
