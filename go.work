@@ -11,4 +11,7 @@ use (
 	./08myArray
 	./09slices
 	./11myMaps
+	./12structs
+	./13ifelse
+	./14switchCase
 )
