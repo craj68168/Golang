@@ -14,4 +14,9 @@ use (
 	./12structs
 	./13ifelse
 	./14switchCase
+	./15loops
+	./16functions
+	./17methods
+	./18defer
+	./19files
 )
